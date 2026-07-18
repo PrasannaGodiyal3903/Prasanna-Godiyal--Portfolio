@@ -6,7 +6,7 @@ This portfolio showcases my **projects, technical skills, education, and experie
 
 ## 🌐 Live Portfolio
 
-Check out my portfolio here: **[Add your Vercel link here]**
+Check out my portfolio here: **https://prasanna-godiyal-portfolio.vercel.app/**
 
 ## ✨ Features
 
