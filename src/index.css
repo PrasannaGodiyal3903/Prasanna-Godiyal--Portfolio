@@ -152,6 +152,12 @@ a {
   max-width: 600px;
   line-height: 1.7;
 }
+.hero-name {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+               "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
 
 /* ============================================
    REDUCED MOTION
