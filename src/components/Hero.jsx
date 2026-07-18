@@ -81,9 +81,12 @@ export default function Hero() {
           custom={prefersReducedMotion}
           className="font-semibold leading-[1.05] tracking-tight"
           style={{
-            fontFamily: "var(--font-heading)",
-            fontSize: "clamp(3rem, 8vw, 7rem)",
-            color: "var(--color-text-primary)",
+            fontFamily:
+      '-apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif',
+    fontSize: "clamp(3rem, 8vw, 7rem)",
+    fontWeight: 700,
+    letterSpacing: "-0.05em",
+    color: "var(--color-text-primary)",
           }}
         >
           <span className="block">{personalInfo.firstName}</span>
