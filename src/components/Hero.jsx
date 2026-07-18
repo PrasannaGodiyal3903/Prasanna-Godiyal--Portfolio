@@ -105,7 +105,7 @@ export default function Hero() {
         <motion.p
           variants={childFade}
           custom={prefersReducedMotion}
-          className="mt-4 text-xl md:text-2xl font-medium"
+          className="mt-6 text-xl md:text-2xl font-medium"
           style={{
             fontFamily: "var(--font-heading)",
             color: "var(--color-text-secondary)",
@@ -118,7 +118,7 @@ export default function Hero() {
         <motion.p
           variants={childFade}
           custom={prefersReducedMotion}
-          className="mt-3 max-w-lg text-lg leading-relaxed"
+          className="mt-5 max-w-lg text-lg leading-relaxed"
           style={{
             fontFamily: "var(--font-body)",
             color: "var(--color-text-muted)",
@@ -131,7 +131,7 @@ export default function Hero() {
         <motion.div
           variants={childFade}
           custom={prefersReducedMotion}
-          className="my-8 flex items-center gap-3"
+          className="mt-8 flex items-center gap-3"
           aria-hidden="true"
         >
           <span
@@ -152,7 +152,7 @@ export default function Hero() {
         <motion.div
           variants={childFade}
           custom={prefersReducedMotion}
-          className="flex flex-wrap items-center justify-center gap-4"
+          className="flex flex-wrap items-center justify-center gap-6"
         >
           {/* primary — scroll to projects */}
           <motion.a
@@ -202,7 +202,7 @@ export default function Hero() {
         <motion.div
           variants={childFade}
           custom={prefersReducedMotion}
-          className="mt-10 flex items-center gap-5"
+          className="mt-12 flex items-center gap-5"
         >
           {personalInfo.github && (
             <a
