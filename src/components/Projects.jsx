@@ -330,11 +330,13 @@ function FeaturedCard({ project, index, prefersReduced }) {
             isReversed ? "md:order-1" : "md:order-2"
           }`}
         >
-          <ProjectVisual
-            color={project.color}
-            title={project.title}
-            prefersReduced={prefersReduced}
-          />
+         <div className="h-full overflow-hidden rounded-xl bg-[#111] flex items-center justify-center p-6">
+  <img
+    src={project.image}
+    alt={project.title}
+    className="max-h-full max-w-full object-contain rounded-lg transition-transform duration-500 group-hover:scale-105"
+  />
+</div>
         </div>
       </div>
 
