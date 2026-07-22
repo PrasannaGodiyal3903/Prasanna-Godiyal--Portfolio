@@ -48,25 +48,26 @@ export const skills = {
 };
 
 export const projects = [
+  
+  {
+    title: "InsightFlow AI — AI-Powered Business Intelligence Platform",
+    description: "AI-Powered Business Intelligence Dashboard — Upload CSV data and ask questions in natural language.",
+    longDescription: "InsightFlow AI is a full-stack Business Intelligence application that lets users upload CSV datasets and ask questions about their data using natural language. The AI analyzes the data, generates visualizations, and provides actionable business insights.",
+    techStack: ["Python", "FastAPI", "React", "TypeScript", "LangGraph", "Google Gemini"],
+    github: "https://github.com/PrasannaGodiyal3903/InsightFlow-AI",
+    live: "https://insight-flow-ai-five.vercel.app/",
+    featured: true,
+    color: "#64ffda",
+  },
   {
     title: "Thinkboard",
     description: "Production-ready full-stack note-taking application with rate-limited APIs, Redis caching, and JWT authentication.",
     longDescription: "A CRUD application engineered with MongoDB, Express.js, React, and Node.js featuring JWT-based authentication and RESTful API design. Integrated Upstash Redis rate limiting supporting up to 100 req/min per user, a component-based UI with Tailwind CSS and DaisyUI, and automated CI/CD deployment on Render with zero-downtime releases.",
     techStack: ["React", "Node.js", "Express.js", "MongoDB", "Redis", "JWT", "Tailwind CSS", "CI/CD"],
     github: "https://github.com/PrasannaGodiyal3903/mern-notetakingapp",
-    live: "",
+    live: "https://mern-notetakingapp-xpv6.onrender.com/",
     featured: true,
     color: "#c9f31d",
-  },
-  {
-    title: "Ride Sharing Simulation",
-    description: "Real-time Uber-like ride-sharing system with live driver tracking, event-driven architecture, and dynamic ETA updates.",
-    longDescription: "Built a real-time ride-sharing simulation using the MERN stack and Socket.io for live bi-directional communication. Features live driver tracking and route-based navigation using OSRM and Leaflet.js, with a multi-phase ride workflow (request → pickup → destination) including dynamic ETA updates and concurrent driver handling.",
-    techStack: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io", "OSRM", "Leaflet.js"],
-    github: "https://github.com/PrasannaGodiyal3903/ride-sharing-app",
-    live: "",
-    featured: true,
-    color: "#64ffda",
   },
   {
     title: "AirIQ",
