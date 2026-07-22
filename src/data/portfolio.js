@@ -58,6 +58,7 @@ export const projects = [
     live: "https://insight-flow-ai-five.vercel.app/",
     featured: true,
     color: "#64ffda",
+    image: "/insightflow.png",
   },
   {
     title: "Thinkboard",
@@ -68,6 +69,7 @@ export const projects = [
     live: "https://mern-notetakingapp-xpv6.onrender.com/",
     featured: true,
     color: "#c9f31d",
+    image: "/thinkboard.png",
   },
   {
     title: "AirIQ",
@@ -78,6 +80,7 @@ export const projects = [
     live: "",
     featured: true,
     color: "#ff6b6b",
+    image: "/AirIQ.png",
   },
 ];
 
